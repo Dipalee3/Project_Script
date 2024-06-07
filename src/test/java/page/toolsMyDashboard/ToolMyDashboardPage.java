@@ -43,7 +43,7 @@ public class ToolMyDashboardPage extends BasePage {
 	}
 
 	By firstCheckBoxParcel = By
-			.xpath("//input[contains(@id,'ctl00_ConPHRightTop_YALCOM_InMessages_RadGrid1_ctl00_ctl04_CheckBox1')]");
+			.xpath("//input[contains(@id,'ctl00_ConPHRightTop_RadGrid1_ctl00_ctl04_CheckBox1')]");
 
 	public void clickOnFirstCheckBox() {
 		util.waitUntilElementDisplay(firstCheckBoxParcel);
